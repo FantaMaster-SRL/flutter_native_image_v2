@@ -1,0 +1,26 @@
+# Generated Flutter and IDE files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+build/
+**/build/
+**/.gradle/
+**/.kotlin/
+**/local.properties
+**/key.properties
+**/*.jks
+**/*.keystore
+**/Pods/
+**/.symlinks/
+**/Flutter/ephemeral/
+**/Flutter/Generated.xcconfig
+**/Flutter/flutter_export_environment.sh
+**/GeneratedPluginRegistrant.*
+**/xcuserdata/
+**/DerivedData/
+.idea/
+*.iml
+.DS_Store
