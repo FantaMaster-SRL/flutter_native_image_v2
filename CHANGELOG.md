@@ -1,3 +1,9 @@
+## 1.1.6
+
+* Add Swift Package Manager integration for iOS with Flutter 3.41 or newer.
+* Preserve the existing Dart API and Android implementation.
+* Retain CocoaPods source paths for projects using CocoaPods.
+
 ## [1.1.5+1]
 * Bumped package version to 1.1.5+1.
 * To be compatible with latest Gradle versions, `namespace` attribute must be added to Gradle file #1.

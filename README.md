@@ -82,3 +82,22 @@ Shoutouts to Trevor from Vocaro.com. He had the fitting algorithm for resizing i
 Source: http://vocaro.com/trevor/blog/2009/10/12/resize-a-uiimage-the-right-way/
 
 For preserving exif information, I took the code from googles image_picker github (https://github.com/flutter/plugins/tree/master/packages/image_picker)
+
+
+## FantaMaster Swift Package Manager support
+
+This maintained version adds iOS Swift Package Manager support. SwiftPM builds
+require Flutter 3.41 or newer and target iOS 15 or newer. The manifest consumes
+Flutter's generated `FlutterFramework` package. The existing Dart API and Android
+implementation are unchanged. CocoaPods integration is retained for consumers
+that still use it; enabling SwiftPM is controlled by the consuming application.
+
+Use the tagged Git release:
+
+```yaml
+dependencies:
+  flutter_native_image_v2:
+    git:
+      url: https://github.com/FantaMaster-SRL/flutter_native_image_v2.git
+      ref: v1.1.6
+```
